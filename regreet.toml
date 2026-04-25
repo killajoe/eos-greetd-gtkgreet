@@ -1,0 +1,17 @@
+# EndeavourOS setup for greetd and ReGreet
+[background]
+path = "/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"
+fit = "Cover"
+
+[GTK]
+# Set these to match your prefered gtk theme
+application_preference = "prefer-dark"
+cursor_theme_name = "Qogir-Dark"
+font_name = "Noto Sans Regular 10"
+icon_theme_name = "Qogir-Dark"
+theme_name = "Arc-Dark"
+
+[commands]
+# Optional: adds power buttons to the greeter
+reboot = [ "systemctl", "reboot" ]
+poweroff = [ "systemctl", "poweroff" ]

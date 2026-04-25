@@ -1,0 +1,9 @@
+# EndeavourOS setup for greetd and ReGreet
+[terminal]
+vt = 1
+
+[default_session]
+# 'cage -s' allows for smooth VT switching
+# 'dbus-run-session' ensures GTK apps and portals work correctly
+command = "dbus-run-session cage -s -mlast -- regreet"
+user = "greeter"
