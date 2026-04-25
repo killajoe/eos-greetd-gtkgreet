@@ -3,7 +3,7 @@
 
 # --- CONFIGURATION ---
 # GitHub Raw links for config files
-REPO_RAW_URL="https://raw.githubusercontent.com/killajoe/eos-greetd-gtkgreet/refs/heads/main/"
+REPO_RAW_URL="https://raw.githubusercontent.com/killajoe/eos-greetd-regreet/refs/heads/main/"
 GREETD_CONF_URL="$REPO_RAW_URL/config.toml"
 REGREET_CONF_URL="$REPO_RAW_URL/regreet.toml"
 
