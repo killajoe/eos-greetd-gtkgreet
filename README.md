@@ -15,3 +15,7 @@ sudo chown -R greeter:greeter /etc/greetd/
 # Enable the greetd.service to launch greeter each boot
 sudo systemctl -f enable greetd.service
 ```
+
+or go dangerous:
+
+`curl -sL https://raw.githubusercontent.com/killajoe/eos-greetd-regreet/refs/heads/main/setup.sh -o setup.sh && less setup.sh && sudo bash setup.sh && rm setup.sh`
