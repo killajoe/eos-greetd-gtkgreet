@@ -1,5 +1,7 @@
 # EndeavourOS setup for greetd and ReGreet
+<img width="1277" height="804" alt="regreet-eos-arc-dark" src="https://github.com/user-attachments/assets/b36feb91-7495-4a88-a545-c892e51ba961" />
 
+## Manual setup
 ```
 # install needed packages
 sudo pacman -S greetd greetd-regreet cage
