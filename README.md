@@ -30,4 +30,4 @@
 
 or go dangerous:
 
-`curl -sL https://raw.githubusercontent.com/killajoe/eos-greetd-regreet/refs/heads/main/setup.sh -o setup.sh && less setup.sh && sudo bash setup.sh && rm setup.sh`
+`curl -sL https://raw.githubusercontent.com/killajoe/eos-greetd-regreet/refs/heads/main/setup.sh -o setup.sh && less setup.sh && read -p "Execute script? (y/n): " confirm && [[ $confirm == [yY] ]] && sudo bash setup.sh; rm setup.sh`
