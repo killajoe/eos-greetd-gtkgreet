@@ -25,6 +25,9 @@
 
 `sudo systemctl -f enable greetd.service`
 
+# in case running in VM your cursor could get upside down fixit
+`echo 'WLR_NO_HARDWARE_CURSORS=1' >> /etc/environment`
+
 or go dangerous:
 
 `curl -sL https://raw.githubusercontent.com/killajoe/eos-greetd-regreet/refs/heads/main/setup.sh -o setup.sh && less setup.sh && sudo bash setup.sh && rm setup.sh`
